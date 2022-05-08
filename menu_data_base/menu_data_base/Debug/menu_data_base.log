@@ -1,0 +1,38 @@
+﻿Build started 1/9/2010 8:38:34 AM.
+     1>Project "E:\daily programming paractices\menu_data_base\menu_data_base\menu_data_base.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\menu_data_base.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\menu_data_base.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt stdafx.cpp /clr:nostdlib 
+         stdafx.cpp
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\menu_data_base.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt AssemblyInfo.cpp menu_data_base.cpp /clr:nostdlib 
+         AssemblyInfo.cpp
+         menu_data_base.cpp
+     1>e:\daily programming paractices\menu_data_base\menu_data_base\Form1.h(215): error C2814: 'menu_data_base::Form1::employ' : a native type cannot be nested within a managed type 'menu_data_base::Form1'
+                 e:\daily programming paractices\menu_data_base\menu_data_base\Form1.h(15) : see declaration of 'menu_data_base::Form1'
+     1>e:\daily programming paractices\menu_data_base\menu_data_base\Form1.h(216): error C2146: syntax error : missing ';' before identifier 'name'
+     1>e:\daily programming paractices\menu_data_base\menu_data_base\Form1.h(216): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\daily programming paractices\menu_data_base\menu_data_base\Form1.h(216): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\daily programming paractices\menu_data_base\menu_data_base\Form1.h(219): error C2146: syntax error : missing ';' before identifier 'dept'
+     1>e:\daily programming paractices\menu_data_base\menu_data_base\Form1.h(219): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\daily programming paractices\menu_data_base\menu_data_base\Form1.h(219): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\daily programming paractices\menu_data_base\menu_data_base\Form1.h(220): error C2146: syntax error : missing ';' before identifier 'garde'
+     1>e:\daily programming paractices\menu_data_base\menu_data_base\Form1.h(220): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\daily programming paractices\menu_data_base\menu_data_base\Form1.h(220): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\daily programming paractices\menu_data_base\menu_data_base\Form1.h(229): error C2039: 'name' : is not a member of 'menu_data_base::Form1::employ'
+                 e:\daily programming paractices\menu_data_base\menu_data_base\Form1.h(215) : see declaration of 'menu_data_base::Form1::employ'
+     1>e:\daily programming paractices\menu_data_base\menu_data_base\Form1.h(229): error C2228: left of '.Text' must have class/struct/union
+                 type is 'System::Windows::Forms::TextBox ^'
+                 did you intend to use '->' instead?
+     1>e:\daily programming paractices\menu_data_base\menu_data_base\Form1.h(230): error C2065: 'id_tbx' : undeclared identifier
+     1>e:\daily programming paractices\menu_data_base\menu_data_base\Form1.h(230): error C2228: left of '.Text' must have class/struct/union
+                 type is ''unknown-type''
+     1>e:\daily programming paractices\menu_data_base\menu_data_base\Form1.h(230): error C2228: left of '.ToString' must have class/struct/union
+         Generating Code...
+     1>Done Building Project "E:\daily programming paractices\menu_data_base\menu_data_base\menu_data_base.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.76

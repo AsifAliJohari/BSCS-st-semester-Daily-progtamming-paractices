@@ -1,0 +1,48 @@
+ASIF ALI
+
+
+
+#include <cstdlib>
+#include <iostream>
+#include <string>
+using namespace std;
+string menue[3]={"1.     A","2.     B","3.     Exit"};
+string opt[3][3]={ {"1.     A1","2.     A2","3.     Exit"} , {"1.     B1" , "2.     B2", "3.     Exit"} };
+void funcOpt(int op2, int opno)
+{             
+            while (op2!=3)
+            {          
+                       system("CLS");
+              
+                       if(opno==1)
+                               {
+                                   for (int i=0;i<3;i++)
+                                   cout<<opt[0][i]<<endl;
+                               }
+                       if(opno==2)
+                               {
+                                   for(int i=0;i<3;i++)
+                                   cout<<opt[1][i]<<endl;
+                                }
+             
+                       cin >>op2;
+             }
+ }
+int main(int argc, char *argv[])
+{        int opt1=0;
+         while (opt1!=3)
+               {
+                         system("CLS");
+                         for(int i=0;i<3;i++)
+                         cout<<menue[i]<<endl;
+                         cin>>opt1;
+                         int opt2=0;
+                         if (opt1==1)
+                         funcOpt(opt2, 1);
+                         if (opt1==2)
+                         funcOpt(opt2, 2);
+             
+              }
+    //system("PAUSE");
+    return EXIT_SUCCESS;
+}
